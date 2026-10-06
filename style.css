@@ -1,0 +1,91 @@
+h2 {
+     color: #504e2c; 
+     font-family: 'Arial', sans-serif;
+      border-bottom: 2px solid #3498db; 
+      padding-bottom: 10px;
+     } 
+     /* Element Selector with Pseudo-class */ 
+     h3:hover { 
+        color: #07b7f7; 
+        cursor: pointer; 
+        transition: color 0.3s ease; 
+    } 
+    /* Element Selector */ 
+    hr { 
+        border: 0; 
+        height: 1px;
+         background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0)); 
+        }
+         /* Element Selector with Attribute */ 
+         p[lang] { 
+            font-style: italic;
+         } 
+         /* Class Selector */ 
+         .highlight { 
+            background-color: #f1c40f; 
+            padding: 5px; 
+        } 
+         /* ID Selector */ 
+         #main-content {
+             max-width: 800px;
+              margin: 0 auto; 
+              padding: 30px; 
+              background-color: #ecf0f1;
+             } 
+             /* Descendant Selector */ 
+             div p { 
+                line-height: 1.6; 
+                margin-bottom: 15px;
+             }
+              /* Child Selector */
+               div > span {
+                 font-weight: bold; color: #16a085;
+                 }
+                   /* Adjacent Sibling Selector */ 
+                   h2 + p 
+                   { 
+                    font-size: 1.1em; color: #7f8c8d;
+                 } 
+                 /* Attribute Selector */
+                  time[datetime] { 
+                    color: #8e44ad; 
+                    font-weight: bold; 
+                } 
+                /* Pseudo-element Selector */
+                 p::first-letter {
+                     font-size: 1.2em;
+                      font-weight: italic; color: #5f2bc0;
+                        } 
+                        /* Multiple Selectors */ 
+                        img { 
+                            border: 3px solid #00090d;
+                             padding: 10px; 
+                            }
+                            a:link, a:visited {
+                                 color: #3498db; 
+                                 text-decoration: none;
+                                 }
+                                  a:hover, a:active  { 
+                                    color: #e74c3c; 
+                                    text-decoration: underline; 
+                                } 
+                                /* Attribute Selector for Images */ 
+                                img[alt] {
+                                      max-width: 50%; 
+                                      height: auto; 
+                                    }
+                                     /* Combining Selectors */
+                                      div.special p {
+                                         text-indent: 20px;
+                                          color: #27ae60;
+                                         } 
+                                         p:hover { 
+        color: #1816aa; 
+        cursor: pointer; 
+        transition: color 0.3s ease;
+                                         }
+                                         span:hover { 
+        color: #cf1515; 
+        cursor: pointer; 
+        transition: color 0.3s ease;
+                                         }
